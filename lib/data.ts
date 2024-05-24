@@ -107,27 +107,48 @@ export const projectsData = [
     description: 'Engineered kernel modules, synchronization primitives, a Virtual File System, and a Virtual Memory module for the Weenix OS, enhancing process/thread management and system performance. Constructed a robust, adaptable file system interface and improved user space execution efficiency.',
     tags: ["C", "Qemu", "GNU/Linux"],
     imageUrl: kernellogo,
+    links: {},
   },
   {
     title: "Token Bucket Filter Emulator",
     description:"Developed a multi-threaded token bucket filter emulator using pthreads, ensuring thread safety with mutex synchronization. Implemented Unix signal handling, dynamic mode features, and a comprehensive logging system for enhanced adaptability and performance transparency.",
     tags: ["C", "GNU/Linux", "MultiThreading"],
     imageUrl: tokenlogo,
+    links: {},
   },{
     title: "Event Search - A Smart Event Discovery Web App",
     description:" Created a dynamic web app with Angular CLI and Express.js, integrating Ticketmaster and Spotify APIs for event details, artist albums, and enriched user experiences.",
     tags: ["React", "Express JS", "Android app development"],
     imageUrl: event,
+    links: {"React Web Page Demo": "https://youtu.be/K-U4K1BpPms", "Android App Demo": "https://youtu.be/LrulE0KM9m8"},
   },{
     title: "Stock Track: Monitor and Trade NASDAQ/NYSE listed stocks",
     description:" Created an android app with Node backend and MongoDB for storing watchlist and portfolios, integrating Finnhub and Polygon APIs for stock details and HighCharts for visualization.",
     tags: ["Android", "MongoDB", "Node.js"],
     imageUrl: stockLogo,
+    links: {"App Demo":"https://youtu.be/pCiAGPnSWBk"}
   }
 ] as const;
 
 export const skillsData = [
-  "Python",
   "Java",
-  
+"Python",
+"JavaScript",
+"C++",
+"C#",
+"Go",
+"Scala",
+"ReactJS",
+"NodeJS",
+"REST",
+"Django",
+"Spring Boot",
+"Docker",
+"Jenkins",
+"ElasticSearch",
+"AWS",
+"GCP",
+"GraphQL",
+"Git",
+"Maven", 
 ] as const;

@@ -18,7 +18,11 @@ export default function Achievements() {
             <SectionHeading>Achievements</SectionHeading>
             <p className='mb-3'>
                 <span>
-                    Way too many achievements :) 
+                    Way too many achievements 
+                </span>
+                <br />
+                <span>
+                    Just jk. Will be added soon :) 
                 </span>
 
                 
