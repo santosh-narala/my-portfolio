@@ -103,19 +103,6 @@ export const experiencesData = [
 export const projectsData = [
   
   {
-    title: "Weenix Operating System",
-    description: 'Engineered kernel modules, synchronization primitives, a Virtual File System, and a Virtual Memory module for the Weenix OS, enhancing process/thread management and system performance. Constructed a robust, adaptable file system interface and improved user space execution efficiency.',
-    tags: ["C", "Qemu", "GNU/Linux"],
-    imageUrl: kernellogo,
-    links: {},
-  },
-  {
-    title: "Token Bucket Filter Emulator",
-    description:"Developed a multi-threaded token bucket filter emulator using pthreads, ensuring thread safety with mutex synchronization. Implemented Unix signal handling, dynamic mode features, and a comprehensive logging system for enhanced adaptability and performance transparency.",
-    tags: ["C", "GNU/Linux", "MultiThreading"],
-    imageUrl: tokenlogo,
-    links: {},
-  },{
     title: "Event Search - A Smart Event Discovery Web App",
     description:" Created a dynamic web app with Angular CLI and Express.js, integrating Ticketmaster and Spotify APIs for event details, artist albums, and enriched user experiences.",
     tags: ["React", "Express JS", "Android app development"],
