@@ -4,7 +4,7 @@ import { FaIndustry,  } from "react-icons/fa";
 import { LuGraduationCap, LuActivitySquare } from "react-icons/lu";
 import { GiMeal } from "react-icons/gi";
 import { FiActivity } from "react-icons/fi";
-import { IoFastFoodSharp } from "react-icons/io5";
+import { MdFastfood } from "react-icons/md";
 import { RiGraduationCapFill } from "react-icons/ri";
 import { MdWork } from "react-icons/md";
 
@@ -95,9 +95,9 @@ export const experiencesData = [
     location: "Chera Health, NJ, USA",
     description:
       "Worked on the payment and invoice systems for a diatrecian based health tracking application",
-    icon: React.createElement(IoFastFoodSharp),
+    icon: React.createElement(MdFastfood),
     date: "June-August, 2023",
-  }
+  },
 ] as const;
 
 export const projectsData = [
