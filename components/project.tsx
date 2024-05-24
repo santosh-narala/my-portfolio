@@ -36,8 +36,8 @@ export default function Project({links,title, description, tags, imageUrl} : Pro
                     <ul >
                         {
                             Object.entries(links).map(([name, url], index) => (
-                                <li className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-                                    <a href={url} target='_blank' className='flex flex-wrap mt-4 gap-2 sm:mt-auto underline text-brown' key={name}>{name} <FaExternalLinkAlt /></a>
+                                <li className="flex flex-wrap mt-4 gap-2 sm:mt-auto" key={name}>
+                                    <a href={url} target='_blank' className='flex flex-wrap mt-4 gap-2 sm:mt-auto underline text-brown' >{name} <FaExternalLinkAlt /></a>
                                     
                                 </li>
                             ))
