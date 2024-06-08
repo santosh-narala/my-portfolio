@@ -18,9 +18,9 @@ export default function About() {
             <SectionHeading>About me</SectionHeading>
             <p className='mb-3'>
                 <span>
-                I recently graduated with a Master's degree in Computer Science from the 
+                I recently graduated with a Master&apos;s degree in Computer Science from the 
                 <span className="font-bold"> University of Southern California</span>. 
-                During my time at USC, I served as the head teaching assistant for the graduate-level course on web technologies under Professor Marco Papa. In this role, I instructed students on various technologies, including React, Angular, Android, iOS, Flask, Node, and GraphQL. Before pursuing my Master's, I accumulated six years of professional experience at 
+                During my time at USC, I served as the head teaching assistant for the graduate-level course on web technologies under Professor Marco Papa. In this role, I instructed students on various technologies, including React, Angular, Android, iOS, Flask, Node, and GraphQL. Before pursuing my Master&apos;s, I accumulated six years of professional experience at 
                 <span className="font-bold"> Applied Materials</span>
                 , a leading company in the semiconductor industry. I started as a software engineer and advanced to senior software engineer, eventually becoming a technical lead. In my last role, I led a team of four in developing simulation solutions for hardware flows, primarily utilizing React, Java, and MongoDB. 
                 </span>
