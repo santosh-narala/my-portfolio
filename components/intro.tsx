@@ -51,7 +51,7 @@ export default function Intro() {
             <h1 className='text-2xl sm:text-4xl font-bold'>Hello, I&apos;m Santosh Narala</h1>
             <p className='mt-3'>
                 <span className='mb-3 mx-5 px-5'>
-                    A seasoned full stack developer with a strong emphasis on <span class="font-bold italic">Backend development</span>
+                    A seasoned full stack developer with a strong emphasis on <span className="font-bold italic">Backend development</span>
                 </span>
             </p>
             
