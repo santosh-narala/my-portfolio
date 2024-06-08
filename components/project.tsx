@@ -7,13 +7,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 
 
-interface ProjectProps {
-    links: { [key: string]: string };
-    title: string;
-    description: string;
-    tags: string[];
-    imageUrl: string;
-}
+type ProjectProps = typeof projectsData[number]
 
 export default function Project({links,title, description, tags, imageUrl} : ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
