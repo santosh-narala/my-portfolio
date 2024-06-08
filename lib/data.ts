@@ -1,8 +1,5 @@
 import React from "react";
-import { FaReact } from "react-icons/fa";
-import { FaIndustry,  } from "react-icons/fa";
 import { LuGraduationCap, LuActivitySquare } from "react-icons/lu";
-import { GiMeal } from "react-icons/gi";
 import { FiActivity } from "react-icons/fi";
 import { MdFastfood } from "react-icons/md";
 import { RiGraduationCapFill } from "react-icons/ri";
@@ -110,12 +107,6 @@ export const projectsData = [
     links: {},
   },
   {
-    title: "Token Bucket Filter Emulator",
-    description:"Developed a multi-threaded token bucket filter emulator using pthreads, ensuring thread safety with mutex synchronization. Implemented Unix signal handling, dynamic mode features, and a comprehensive logging system for enhanced adaptability and performance transparency.",
-    tags: ["C", "GNU/Linux", "MultiThreading"],
-    imageUrl: tokenlogo,
-    links: {},
-  },{
     title: "Event Search - A Smart Event Discovery Web App",
     description:" Created a dynamic web app with Angular CLI and Express.js, integrating Ticketmaster and Spotify APIs for event details, artist albums, and enriched user experiences.",
     tags: ["React", "Express JS", "Android app development"],
@@ -127,6 +118,12 @@ export const projectsData = [
     tags: ["Android", "MongoDB", "Node.js"],
     imageUrl: stockLogo,
     links: {"App Demo":"https://youtu.be/pCiAGPnSWBk"}
+  },{
+    title: "Token Bucket Filter Emulator",
+    description:"Developed a multi-threaded token bucket filter emulator using pthreads, ensuring thread safety with mutex synchronization. Implemented Unix signal handling, dynamic mode features, and a comprehensive logging system for enhanced adaptability and performance transparency.",
+    tags: ["C", "GNU/Linux", "MultiThreading"],
+    imageUrl: tokenlogo,
+    links: {},
   }
 ] as const;
 
@@ -151,4 +148,27 @@ export const skillsData = [
 "GraphQL",
 "Git",
 "Maven", 
+] as const;
+
+export const achievements = [
+  {
+    description: "Selected into the Computer Science Student Honors Program (Master's) at University of Southern California  (GPA: 4.0/4.0)",
+    issuedBy: "University of Southern California",
+    date: "2024"
+  },
+  {
+    description: "Received Gold Medal for excellent academic performance and securing top rank amongst ~160 students. (Rank: 1 / 160)",
+    issuedBy: "SJCE, Mysuru",
+    date: "2016"
+  },
+  {
+    description: "Secured 1st place out of 65 teams at Applied Materials 2019 Hackathon by developing an AI Image Generator for calibrations.",
+    issuedBy: "Applied Materials",
+    date: "2019"
+  },
+  {
+    description: "Winner of Applied Materials RAP Challenge 2017 for developing a confluence plugin helpful for conducting sprint retrospective meetings.",
+    issuedBy: "Applied Materials",
+    date: "2017"
+  }
 ] as const;
