@@ -51,7 +51,7 @@ export const experiencesData = [
     title: "B.E in Computer Science",
     location: "SJCE, Mysuru",
     description:
-      "GPA: 9.73/10.0",
+      ["GPA: 9.73/10.0"],
     icon: React.createElement(LuGraduationCap),
     date: "2012-2016",
   },
@@ -59,15 +59,14 @@ export const experiencesData = [
     title: "Software Engineer Intern",
     location: "Mercedes Benz, Bengaluru, India",
     description:
-      "Developed bash script plugins to monitoring system resources such as processor load, disk usage, etc. using Nagios development framework.",
-    icon: React.createElement(FiActivity),
+[      "Developed bash script plugins to monitoring system resources such as processor load, disk usage, etc. using Nagios development framework."],    icon: React.createElement(FiActivity),
     date: "June - July, 2015",
   },
   {
     title: "Software Engineer Intern",
     location: "Robert Bosch, Bengaluru, India",
     description:
-      "Built an android application for accessing a host machine securely and remotely over a Wi-Fi network.",
+      ["Built an android application for accessing a host machine securely and remotely over a Wi-Fi network."],
     icon: React.createElement(TfiAndroid),
     date: "January - April, 2016",
   },
@@ -75,7 +74,9 @@ export const experiencesData = [
     title: "Software Technical Lead",
     location: "Applied Materials, Bengaluru, India",
     description:
-      "Worked on developing simulation solutions for hardware flows and managed a team of 4",
+      ["- Improved tool performance by implementing WebSocket communication in place of long polling with vendor devices, significantly reducing idle device calls",
+      "- Led a team of four in developing advanced simulation solutions for hardware workflows, improving efficiency and accuracy",
+      "- Played a key role in the transition from a monolithic code base to a microservice architecture, enhancing system modularity and scalability."],
     icon: React.createElement(MdWork),
     date: "2016-2022",
   },
@@ -83,7 +84,7 @@ export const experiencesData = [
     title: "MS in Computer Science",
     location: "University of Southern California, Los Angeles, USA",
     description:
-      "GPA: 4.0/4.0",
+      ["GPA: 4.0/4.0"],
     icon: React.createElement(RiGraduationCapFill),
     date: "2022-2024",
   },
@@ -91,7 +92,7 @@ export const experiencesData = [
     title: "Software Engineer Intern",
     location: "Chera Health, NJ, USA",
     description:
-      "Worked on the payment and invoice systems for a diatrecian based health tracking application",
+      ["Worked on the payment and invoice systems for a diatrecian based health tracking application"],
     icon: React.createElement(MdFastfood),
     date: "June-August, 2023",
   },

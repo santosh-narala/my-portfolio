@@ -44,7 +44,14 @@ return (
                     >
                         <h3 className='font-semibold capitalize'>{item.title}</h3>
                         <p className='font-normal !mt-0'>{item.location}</p>
-                        <p className='!mt-1 !font-normal text-gray-700 dark:text-white/75'>{item.description}</p>
+                        {/* <p className='!mt-1 !font-normal text-gray-700 dark:text-white/75'>{item.description}</p> */}
+                        <ul className='flex flex-wrap mt-4 gap-2 sm:mt-auto'>
+                        {
+                        item.description.map((descPoint, index) => (
+                                <li  key={index}>{descPoint}</li>
+                            ))
+                        }
+                        </ul>
                     </VerticalTimelineElement>
                     </React.Fragment>
                 ))

@@ -18,8 +18,7 @@ export default function Project({links,title, description, tags, imageUrl} : Pro
     const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
     const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
     const hasVideo = Object.keys(links).length > 0;
-    console.log(links)
-    console.log(hasVideo)
+
 
 
     return (
