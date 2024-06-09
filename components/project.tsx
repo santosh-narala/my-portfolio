@@ -65,10 +65,12 @@ export default function Project({links,title, description, tags, imageUrl} : Pro
                 {hasVideo ? (<iframe className ='absolute hidden sm:block top-2 -right-0 w-[24rem] h-[16rem] mx-2 my-10
                 rounded-lg 
                 group-even:right-[initial] 
-                group-even:-left-0'
-                 width="100" height="200" 
+                group-even:-left-0 
+                sm:ml-[28rem] sm:group-even:ml-[0rem]'
+                
+                 width="24rem" height="16rem" 
                  src={`https://www.youtube.com/embed/${Object.values(links)[0].split('/').pop()}`} 
-                 title="YouTube video player" frameBorder="0" allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin"  allowFullScreen></iframe>
+                 title="YouTube video player" allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" ></iframe>
                    
                 ) : (
 

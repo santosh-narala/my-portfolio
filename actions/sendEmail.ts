@@ -1,9 +1,8 @@
 'use server';
 
-import { error } from "console";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend('re_azhDvqqp_RX8eVMGDFtVShmqcutgFSKoZ');
 
 const validateString = (value : unknown) => {
     if (!value || typeof(value) !== 'string'){
@@ -46,13 +45,14 @@ export const sendEmail = async (formData: FormData) => {
     try{
         await resend.emails.send({
             from: "Contact Form <onboarding@resend.dev>",
-            to : "lingegow@usc.edu",
+            to : "santosh.naralaa@gmail.com",
             subject : "Message from Portfolio",
             reply_to : senderEmail as string,
             text : message as string
         })
     }
     catch (error : unknown){
+        console.log(error);
         return{
             error : getErrorMessage(error)
         }
